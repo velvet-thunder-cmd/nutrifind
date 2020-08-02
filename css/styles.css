@@ -1,0 +1,182 @@
+
+.contact-link{
+    color: black;
+    
+}
+.contact-link:hover{
+    color:grey;
+}
+
+
+
+/*   NAVBAR AND TITLE */
+#title{
+    background-color: #52d6d6;
+    color: white;
+    
+}
+
+.container-fluid{
+    padding : 3% 15%;
+}
+
+/*Navbar*/
+.navbar{
+    padding: 0 0 4.5rem;
+    margin-bottom: 30px;
+    
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:2.5rem;
+    font-weight: 400;
+    padding-left: 0;
+    margin-left:0;
+    padding-top: 5px;
+}
+.nav-item{
+    padding:0 15px;
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size:1.2rem;   
+}
+
+.big-heading,.cta-heading{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+
+
+.feature-text,.testimonial-text,.card-points,.pricing-heading,.pricing-card-title{
+    font-family: 'Montserrat', sans-serif ;
+
+}
+#testimonials{
+    text-align:center;
+    background-color: #52d6d6;
+    color: #fff ;
+    
+   
+}
+
+
+#press{
+    background-color:#52d6d6 ;
+    text-align: center;
+    
+    padding-bottom: 2%;
+}
+
+#pricing{
+    padding: 100px;
+    color: rgb(49, 47, 47);
+}
+.pricing-caption{
+    color: #8f8f8f ;
+    font-weight: 500;
+}
+
+#cta{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #52d6d6;
+}
+
+#footer{
+    padding: 3% 15%;
+    text-align: center;
+}
+
+/*Download button*/
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 120%;
+    transform: rotate(25deg);
+    position: relative;
+    right:120px;
+   
+}
+
+.icons{
+color:#52d6d6;
+
+}
+.icons:hover{   
+    color:#000;
+}
+.desc{
+    color: #8f8f8f;
+    font-weight:600;
+}
+.feature{
+    
+    text-align: center;
+    padding: 7% 15%;
+}
+
+
+.testimonial-image{
+    
+    border-radius: 100%;
+    width:10%;
+    margin: 0 25px;
+    
+}
+.test-desc{
+    color: rgb(49, 47, 47);
+    font-weight:600;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+
+
+.press-logo{
+    width:15%;
+    margin: 20px 20px 15px;
+}
+.container{
+    padding-top:5%;
+    padding-bottom:4%;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.card{
+    color:rgb(49, 47, 47);
+    
+}
+
+
+
+
+.list-unstyled{
+    font-weight: 500;
+    line-height: 2;
+}
+@media(max-width:900px){
+    .title-image{
+        position:static;
+        
+        transform: rotate(0deg);
+    }
+   #title {
+        text-align: center;
+    }
+}
+
+.ending{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    color: #8f8f8f;
+}
